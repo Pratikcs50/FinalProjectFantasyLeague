@@ -205,7 +205,7 @@ class Ui_Dialog(object):
             teamttl=teamttl+ttl
    
         self.scoreline.setText(str(teamttl))
-       
+        score=teamttl
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
@@ -220,7 +220,7 @@ class Ui_Dialog(object):
         self.label_4.setText(_translate("Dialog", "Score"))
         self.pushButton.setText(_translate("Dialog", "Calculate Score"))
         
-        self.scoreline.setText(_translate("Dialog", "00")
+        self.scoreline.setText(_translate("Dialog", "00"))
 
 
 if __name__ == "__main__":

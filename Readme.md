@@ -5,6 +5,8 @@ with a pyQt5 Gui library. We have a sqlite3 database attached to store the infor
 teams created, previously existed team and Players Name and data. 
 
 To walkthrough project :
-FanPage is the manin window where we can create save and evaluate team.
+FanPage is the main window where we can create save and evaluate team.
 The fanPage imports other custom libraries Score and scoreCard which helps to calculate score of players
-and total score respectively.
+and total score respectively. This application projects thus helps user to play a small fantasy league,
+
+
